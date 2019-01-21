@@ -1,0 +1,163 @@
+{
+  "links" : [ {
+    "source" : "procedure/Mqtt_send",
+    "target" : "source/ControlSource"
+  } ],
+  "name" : "MQTT_demo",
+  "options" : {
+    "description" : "",
+    "dockCollapsed" : true,
+    "dockSort" : 1,
+    "filterBitArray" : "ffffffffffffffffffffffffffffffff",
+    "isModeloProject" : true,
+    "layoutStyle" : "tile",
+    "showGrid" : true,
+    "tileColumns" : 2,
+    "tileRows" : 2,
+    "v" : 2
+  },
+  "resources" : [ {
+    "name" : "/machine/temp",
+    "node" : {
+      "x" : 534.3369044913921,
+      "y" : 125.99493360441372
+    },
+    "type" : 10
+  }, {
+    "inventory" : {
+      "appmodelHash" : [ ],
+      "appmodels" : [ ],
+      "collaborationHash" : [ ],
+      "collaborations" : [ ],
+      "pagesetHash" : [ ],
+      "pagesets" : [ ],
+      "procedureHash" : [ ],
+      "procedures" : [ ],
+      "sourceHash" : [ ],
+      "sources" : [ ],
+      "topicHash" : [ ],
+      "topics" : [ ],
+      "typeHash" : [ ],
+      "types" : [ ]
+    },
+    "name" : "ControlSource",
+    "node" : {
+      "x" : 338.62562425999164,
+      "y" : 80.21569686154814
+    },
+    "timestamp" : "2019-01-21T06:11:28.930Z",
+    "type" : 4
+  }, {
+    "inventory" : {
+      "appmodelHash" : [ ],
+      "appmodels" : [ ],
+      "collaborationHash" : [ ],
+      "collaborations" : [ ],
+      "pagesetHash" : [ ],
+      "pagesets" : [ ],
+      "procedureHash" : [ ],
+      "procedures" : [ ],
+      "sourceHash" : [ "out" ],
+      "sources" : [ "ControlSource" ],
+      "topicHash" : [ ],
+      "topics" : [ ],
+      "typeHash" : [ ],
+      "types" : [ ]
+    },
+    "label" : "Mqtt_send",
+    "name" : "Mqtt_send",
+    "node" : {
+      "x" : 354.0869005411833,
+      "y" : 265.0576542917361
+    },
+    "timestamp" : "2019-01-21T06:11:48.536Z",
+    "type" : 3
+  }, {
+    "inventory" : {
+      "appmodelHash" : [ ],
+      "appmodels" : [ ],
+      "collaborationHash" : [ ],
+      "collaborations" : [ ],
+      "pagesetHash" : [ ],
+      "pagesets" : [ ],
+      "procedureHash" : [ ],
+      "procedures" : [ ],
+      "sourceHash" : [ ],
+      "sources" : [ ],
+      "topicHash" : [ ],
+      "topics" : [ ],
+      "typeHash" : [ ],
+      "types" : [ ]
+    },
+    "label" : "TemperatureSource",
+    "name" : "TemperatureSource",
+    "node" : {
+      "x" : 332.23333231141845,
+      "y" : 184.93408295204247
+    },
+    "timestamp" : "2019-01-21T04:11:16.564Z",
+    "type" : 4
+  } ],
+  "tools" : [ {
+    "isPinned" : false,
+    "name" : "Project Resource Graph",
+    "pane" : {
+      "c" : 0,
+      "lastUsed" : 1548050896909,
+      "r" : 0
+    },
+    "toolOptions" : {
+      "scaleAndTranslationState" : {
+        "lastZoomRequest" : 0,
+        "scale" : 1,
+        "translate" : [ 0, 0 ]
+      }
+    },
+    "type" : 1
+  }, {
+    "isPinned" : false,
+    "name" : "TemperatureSource",
+    "pane" : {
+      "c" : -1,
+      "lastUsed" : 1548043894546,
+      "r" : -1
+    },
+    "resourceKey" : "source/TemperatureSource",
+    "type" : 11
+  }, {
+    "isPinned" : false,
+    "name" : "Mqtt_send",
+    "pane" : {
+      "c" : 1,
+      "lastUsed" : 1548051236787,
+      "r" : 0
+    },
+    "resourceKey" : "procedure/Mqtt_send",
+    "type" : 24
+  }, {
+    "isPinned" : false,
+    "name" : "/machine/temp",
+    "pane" : {
+      "c" : 1,
+      "lastUsed" : 1548051603136,
+      "r" : 1
+    },
+    "resourceKey" : "topic//machine/temp",
+    "type" : 8
+  }, {
+    "isPinned" : false,
+    "name" : "/machine/temp",
+    "pane" : {
+      "c" : 0,
+      "lastUsed" : 1548051603187,
+      "r" : 1
+    },
+    "resourceKey" : "topic//machine/temp",
+    "type" : 11
+  } ],
+  "type" : "dev",
+  "views" : [ {
+    "name" : "Main",
+    "projectToolKeys" : [ "graph/Project Resource Graph", "dataviewer/TemperatureSource", "cmeditorprocedure/Mqtt_send", "subtopiceditor//machine/temp", "dataviewer//machine/temp" ]
+  } ]
+}

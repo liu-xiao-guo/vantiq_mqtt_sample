@@ -1,0 +1,18 @@
+{
+  "activationConstraint" : "",
+  "active" : true,
+  "config" : {
+    "automaticReconnect" : true,
+    "cleanSession" : true,
+    "connectionTimeout" : 15,
+    "contentType" : "application/json",
+    "keepAliveInterval" : 15,
+    "passwordType" : "string",
+    "qos" : "AT_LEAST_ONCE",
+    "serverURIs" : [ "tcp://public.vantiq.cn:1883" ],
+    "topics" : [ "/xiaoguo/control" ]
+  },
+  "direction" : "BOTH",
+  "name" : "ControlSource",
+  "type" : "MQTT"
+}

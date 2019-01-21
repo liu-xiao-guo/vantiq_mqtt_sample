@@ -1,0 +1,10 @@
+PROCEDURE Mqtt_send()
+
+
+var msg = {}
+
+msg.id = 1
+msg.status = "OK"
+msg.control = 1
+
+PUBLISH { message: msg } to SOURCE ControlSource USING { topic: "/xiaoguo/control" }
